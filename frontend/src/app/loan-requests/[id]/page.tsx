@@ -7,6 +7,8 @@ export default async function ReceiptPage({ params }: ReceiptPageProps) {
   // TODO FRONT-C: mostrar ID, purpose, days y tool.name de la solicitud recibida.
   void params;
 
+  return
+
   return (
     <main>
       <h1>Loan receipt</h1>

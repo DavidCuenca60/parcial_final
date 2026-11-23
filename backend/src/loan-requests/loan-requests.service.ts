@@ -14,6 +14,7 @@ export class LoanRequestsService {
 
   findAll() {
     // TODO BACK-A: recibir el filtro y aplicarlo en la consulta del repositorio.
+    if (this.tools) = 
     return this.requests.find({ relations: { tool: true }, order: { id: "ASC" } });
   }
 
